@@ -1,5 +1,5 @@
 {
-    "name": "digitalmonk/EditableWidget",
+    "name": "digitalmonk/yii2-widgets/editable-widget",
     "description": "Editable widget",
     "keywords": ["yii2", "editable", "widget"],
     "type": "yii2-extension",
