@@ -7,7 +7,6 @@
 
 namespace digitalmonk\widgets\EditableWidget;
 
-
 use yii\widgets\InputWidget;
 
 class EditableWidget extends InputWidget
