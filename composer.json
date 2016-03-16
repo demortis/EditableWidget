@@ -4,18 +4,14 @@
     "keywords": ["yii2", "editable", "widget"],
     "type": "yii2-extension",
     "license": "BSD-3-Clause",
+    "version": "1.0.0",
     "authors": [
         {
             "name": "Eugene A.",
-            "email": "compuniti@mail.ru",
+            "email": "compuniti@mail.ru"
         }
     ],
     "require": {
         "yiisoft/yii2": "*"
-    },
-    "autoload": {
-        "psr-4": {
-            "digitalmonk\\editable\\": ""
-        }
     }
 }
