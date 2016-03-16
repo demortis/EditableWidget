@@ -1,0 +1,16 @@
+{
+    "name": "digitalmonk/yii2-widgets/EditableWidget",
+    "description": "Editable widget",
+    "keywords": ["yii2", "editable", "widget"],
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Eugene A.",
+            "email": "compuniti@mail.ru"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    }
+}
