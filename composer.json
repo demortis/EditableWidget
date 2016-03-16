@@ -4,6 +4,7 @@
     "keywords": ["yii2", "editable", "widget"],
     "type": "yii2-extension",
     "license": "BSD-3-Clause",
+    "minimum-stability" : "dev",
     "authors": [
         {
             "name": "Eugene A.",
