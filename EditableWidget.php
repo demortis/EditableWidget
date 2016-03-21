@@ -5,7 +5,7 @@
  * @time: 8:27
  */
 
-namespace digitalmonk\widgets\EditableWidget;
+namespace app\digitalmonk\widgets\EditableWidget;
 
 use yii\widgets\InputWidget;
 
