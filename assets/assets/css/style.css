@@ -1,0 +1,60 @@
+/*div.editable-input-box > input{*/
+    /*display: none;*/
+/*}*/
+
+div.editable-input-box > a > sup.editable-input-ico{
+    display: none;
+    position: relative;
+    top: -12px;
+    color: #48b863;
+    padding: 3px;
+    border-radius: 50%;
+    font-size: 10px;
+}
+
+div.editable-input-box > a:hover > sup.editable-input-ico{
+    display:inline-block;
+}
+
+//        $("#'.$this->context->id.'").on("keyup blur", ".'.$inputOptions['class'].'", function(event)
+//        {
+//            var $this = $(this),
+//                $link = $this.prev("a"),
+//                $form = $this.closest("form");
+//
+//            if(event.type === "keyup" && event.keyCode === 27)
+//            {
+//                var oldVal = $link.children("span").text();
+//
+//                $this.replaceWith("'.addslashes(\yii\helpers\Html::$input($param_one, $param_two, $inputOptions)).'");
+//                $link.show();
+//
+//                return;
+//
+//            } else if(event.type === "focusout" || event.type === "keyup" && event.keyCode === 13){
+//
+//                if(!$link.is(":hidden")){alert(!$link.is(":hidden"))} else {alert(!$link.is(":hidden"))};
+//
+//                $form.submit(function(){
+//                    return false;
+//                });
+//
+//                if($this.val() !== $link.text())
+//                {
+//                    $($form).data("yiiActiveForm").submitting = true;
+//                    $($form).yiiActiveForm("validate");
+//
+//                    var data = $form.serializeArray();
+//                    for(var i = 0, l = data.length; i < l; i++)
+//                    {
+//                        data[i].value = $.trim(data[i].value.replace(/(\r\n|\n|\r)/gm, " "));
+//                    }
+//                    data = $.param(data);
+//
+//                    $.ajax('.\yii\helpers\Json::encode($ajaxOptions).');
+//                } else {
+                    //                    $this.replaceWith("'.addslashes(\yii\helpers\Html::$input($param_one, $param_two, $inputOptions)).'");
+                    //                    $link.show();
+                    //                }
+//            }
+//        });
